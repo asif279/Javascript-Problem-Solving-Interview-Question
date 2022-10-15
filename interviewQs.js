@@ -93,7 +93,7 @@ console.log(result);*/
 
 //Sum of all numbers in an array
 
-/*function SumOfArray(arra){
+function SumOfArray(arra){
 
     var sum =0;
      for (var i = 0; i < arra.length; i++){
@@ -104,7 +104,7 @@ console.log(result);*/
 
 }
  var result = SumOfArray([ 10,324, 45, 90]);
-console.log("sum = ",result);*/
+console.log("sum = ",result);
 
 
 
