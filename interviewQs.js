@@ -108,7 +108,7 @@ console.log("sum = ",result);*/
 
 //Remove duplicate item from an array
 
-function getUnique(a){
+/*function getUnique(a){
     var uniqueArray = [];
     
     for(i=0; i < a.length; i++){
@@ -121,7 +121,46 @@ function getUnique(a){
 
 var names =getUnique(["John", "Peter", "Clark", "Harry", "John", "Alice"]) ;
 
-console.log(names); 
+console.log(names); */
+
+//Word Count of String
+
+/*function CountWordString(word){
+
+    var count = 0;
+    for(var i=0;i<word.length;i++){
+        var char = word[i];
+        if(char == " " && word[i-1] != " "){
+            count++
+        }
+
+    }
+
+count++
+return count;
+}
+
+var result =  CountWordString("I will kill you my dear Love Fuck You babe");
+console.log(result);*/
+
+
+
+//Reverse a string
+function ReverseString(str){
+
+    var reverse ="";
+    for(var i=0;i<str.length;i++){
+        var char =str[i];
+        reverse = char + reverse;
+
+    }
+    return reverse;
+
+}
+var result =  ReverseString("I want to be a professional web developer");
+console.log(result.toUpperCase());
+
+
 
 
         
