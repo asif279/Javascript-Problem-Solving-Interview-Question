@@ -27,7 +27,7 @@ var result = swapVariable(5,7);
  
  // destructing
 */
-// Find max of two values, find max of three values
+// Find max of two values
 /*function FindMax(num1,num2){
 
     if(num1>num2){
@@ -43,6 +43,7 @@ var result = swapVariable(5,7);
 
 var result = FindMax(5,5);
 console.log(result);*/
+//Find max of three values
 /*function FindMax(num1,num2,num3){
 
     if(num1>num2 && num1>num3){
@@ -61,3 +62,34 @@ console.log(result);*/
 
 var result = FindMax(4,4,7);
 console.log(result);*/
+
+
+//Find the largest element of an array
+
+
+// JavaScript program to find
+// maximum in arr[] of size n
+
+        function largest(array) {
+        
+        var maximum = array[0];
+
+            for (var i = 1; i < array.length; i++) {
+                if (array[i] > maximum){
+                    maximum = array[i];
+
+
+                }
+                    
+            }
+            
+        return maximum;
+    }
+
+        var arra = largest([10, 324, 45, 90]);
+        console.log("Largest in given array is " , arra);
+        
+    
+
+
+
