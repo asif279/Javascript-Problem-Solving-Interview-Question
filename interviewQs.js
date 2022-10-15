@@ -70,9 +70,9 @@ console.log(result);*/
 // JavaScript program to find
 // maximum in arr[] of size n
 
-        function largest(array) {
+         /* function largest(array) {
         
-        var maximum = array[0];
+      var maximum = array[0];
 
             for (var i = 1; i < array.length; i++) {
                 if (array[i] > maximum){
@@ -87,7 +87,27 @@ console.log(result);*/
     }
 
         var arra = largest([10, 324, 45, 90]);
-        console.log("Largest in given array is " , arra);
+        console.log("Largest in given array is " , arra);*/
+
+
+
+//Sum of all numbers in an array
+
+/*function SumOfArray(arra){
+
+    var sum =0;
+     for (var i = 0; i < arra.length; i++){
+      var element = arra[i];
+      sum = sum + element;
+    }
+    return sum;
+
+}
+ var result = SumOfArray([ 10,324, 45, 90]);
+console.log("sum = ",result);*/
+
+
+
         
     
 
