@@ -146,7 +146,7 @@ console.log(result);*/
 
 
 //Reverse a string
-function ReverseString(str){
+/*function ReverseString(str){
 
     var reverse ="";
     for(var i=0;i<str.length;i++){
@@ -158,11 +158,32 @@ function ReverseString(str){
 
 }
 var result =  ReverseString("I want to be a professional web developer");
-console.log(result.toUpperCase());
+console.log(result.toUpperCase());*/
 
 
-
-
+//Travelling in a Jungle and counting wild animals
+function ZooanimalCount (depth) {
+    var animal = 0;
+    if(depth <= 10){
+        animal = depth * 50; 
+    }
+    else if(depth <= 20){
+       var  mile = depth - 10;
+        var firstPart = 10 * 50;
+        var secondPart = mile * 100;
+        animal = firstPart + secondPart;
+    }
+    else{
+       var mile = depth - 20;
+        var firstPart = 10 * 50;
+        var secondPart = 10 * 100;
+        var finalPart = mile * 200;
+        animal = firstPart + secondPart + finalPart;
+    }
+    return animal;
+}
+var animall = ZooanimalCount(10);
+console.log(animall);
         
     
 
