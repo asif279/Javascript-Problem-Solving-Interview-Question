@@ -93,7 +93,7 @@ console.log(result);*/
 
 //Sum of all numbers in an array
 
-function SumOfArray(arra){
+/*function SumOfArray(arra){
 
     var sum =0;
      for (var i = 0; i < arra.length; i++){
@@ -104,8 +104,24 @@ function SumOfArray(arra){
 
 }
  var result = SumOfArray([ 10,324, 45, 90]);
-console.log("sum = ",result);
+console.log("sum = ",result);*/
 
+//Remove duplicate item from an array
+
+function getUnique(a){
+    var uniqueArray = [];
+    
+    for(i=0; i < a.length; i++){
+        if(uniqueArray.indexOf(a[i]) === -1) {
+            uniqueArray.push(a[i]);
+        }
+    }
+    return uniqueArray;
+}
+
+var names =getUnique(["John", "Peter", "Clark", "Harry", "John", "Alice"]) ;
+
+console.log(names); 
 
 
         
