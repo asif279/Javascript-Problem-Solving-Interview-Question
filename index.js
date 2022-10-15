@@ -1,5 +1,5 @@
 //factorial using for loops and while loop using javascript
-function factorial(n){
+/*function factorial(n){
     
 
     // for(var i=1;i<=n;i++){
@@ -96,3 +96,5 @@ function isPrime(n){
 }
 var result =isPrime(13);
  console.log(result);
+*/
+
