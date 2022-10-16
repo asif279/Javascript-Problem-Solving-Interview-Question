@@ -162,7 +162,7 @@ console.log(result.toUpperCase());*/
 
 
 //Travelling in a Jungle and counting wild animals
-function ZooanimalCount (depth) {
+/*function ZooanimalCount (depth) {
     var animal = 0;
     if(depth <= 10){
         animal = depth * 50; 
@@ -183,9 +183,10 @@ function ZooanimalCount (depth) {
     return animal;
 }
 var animall = ZooanimalCount(10);
-console.log(animall);
-        
-    
+console.log(animall);*/
+
+
+
 
 
 
